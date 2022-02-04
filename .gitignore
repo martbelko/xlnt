@@ -23,3 +23,5 @@ python/xlntpyarrow.egg-info/
 /.vs/
 /out/
 /CMakeSettings.json
+xlnt.vcxproj.filters
+xlnt.vcxproj
