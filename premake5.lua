@@ -7,7 +7,17 @@ project "xlnt"
 	files
 	{
 		"source/**.h",
-		"source/**.cpp"
+		"source/**.cpp",
+		"source/**.c",
+
+		"third-party/libstudxml/libstudxml/**.cxx",
+		"third-party/libstudxml/libstudxml/**.ixx",
+		"third-party/libstudxml/libstudxml/**.txx",
+		"third-party/libstudxml/libstudxml/**.hxx",
+		"third-party/libstudxml/libstudxml/**.c",
+
+		"third-party/miniz/**.c",
+		"third-party/miniz/**.h"
 	}
 
 	includedirs
