@@ -2650,7 +2650,7 @@ void xlsx_consumer::read_stylesheet()
             if ((in_style_records && count != style_records.size())
                 || (!in_style_records && count != format_records.size()))
             {
-                throw xlnt::exception("counts don't match");
+                //throw xlnt::exception("counts don't match");
             }
         }
         else if (current_style_element == qn("spreadsheetml", "dxfs"))
