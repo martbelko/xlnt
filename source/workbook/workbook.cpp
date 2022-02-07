@@ -249,7 +249,7 @@ std::string content_type(xlnt::relationship_type type)
     case relationship_type::volatile_dependencies:
         return "application/vnd.openxmlformats-officedocument.spreadsheetml.volatileDependencies+xml";
     case relationship_type::vbaproject:
-        return "application/vnd.ms-office.vbaProject";        
+        return "application/vnd.ms-office.vbaProject";
     case relationship_type::worksheet:
         return "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml";
     }
@@ -474,9 +474,8 @@ workbook workbook::empty()
     stylesheet.fills.push_back(gray125_fill);
 
     auto default_font = font()
-                            .name("Calibri")
-                            .size(12)
-                            .scheme("minor")
+                            .name("Arial")
+                            .size(10)
                             .family(2)
                             .color(theme_color(1));
     stylesheet.fonts.push_back(default_font);
